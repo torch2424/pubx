@@ -1,0 +1,48 @@
+{
+  "name": "pubx",
+  "version": "0.0.1",
+  "description": "Really simple pub/sub state management",
+  "main": "dist/pubx.cjs.js",
+  "module": "dist/pubx.esm.js",
+  "browser": "dist/pubx.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torch2424/pubx.git"
+  },
+  "keywords": [
+    "state",
+    "management",
+    "manager",
+    "publish",
+    "subscribe",
+    "pubsub",
+    "pub",
+    "sub",
+    "framework"
+  ],
+  "author": "Aaron Turner",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/torch2424/pubx/issues"
+  },
+  "homepage": "https://github.com/torch2424/pubx#readme",
+  "devDependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.8.5",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "np": "^3.1.0",
+    "rollup": "^0.68.1",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-bundle-size": "^1.0.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
