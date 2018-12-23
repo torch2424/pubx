@@ -1,6 +1,11 @@
 # pubx
 Really simple pub/sub state management 📋
 
+# TBD
+
+This is still tbd. But, this is currently used in [VaporBoy](https://github.com/torch2424/vaporBoy), and [WasmBoy](https://github.com/torch2424/wasmBoy)
+
+# Description
 
 A State management sytem based around passing events through pub/sub. Meant to be easy, and lightweight.
 
