@@ -19,6 +19,7 @@ let plugins = [
   resolve(), // so Rollup can find node modules
   commonjs(),
   json(),
+  babel(babelPluginConfig)
 ];
 
 export default [
@@ -67,7 +68,6 @@ export default [
     },
     plugins: [
       ...plugins,
-      babel(babelPluginConfig),
       compiler(),
       bundleSize()
     ]
