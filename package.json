@@ -1,6 +1,6 @@
 {
   "name": "pubx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Really simple pub/sub state management",
   "main": "dist/pubx.cjs.js",
   "module": "dist/pubx.esm.js",
